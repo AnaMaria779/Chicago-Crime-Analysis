@@ -27,27 +27,42 @@ The dataset consists of the following columns:
 - Explore relationships between crime types, locations, and demographics.
 - Identify areas with the highest crime rates.
 - Explore temporal patterns in crimes (e.g., time of year, day of the week, etc.).
-- Visualize findings using charts, graphs, and other data visualization tools.
+- Visualize findings using interactive dashboards to showcase cases filed by year, race, and other variables.
+
+## Key Features
+
+### Interactive Dashboards
+
+This project includes several interactive dashboards that allow users to explore the crime data in depth:
+
+- **Cases Filed by Year**: View the total number of cases filed over the years.
+- **Cases Filed by Race**: Analyze how arrests and cases vary based on the race of the arrestees.
+- **Total Cases Filed**: A quick overview of the total number of cases filed over the dataset's timeframe.
+- **Crime Type Breakdown**: Explore the types of offenses committed and their trends.
+- **Arrestee Demographics**: Analyze trends based on the demographics of arrested individuals (e.g., age, gender, race).
+
+These dashboards are built using **Excel**'s built-in features like PivotTables, PivotCharts, and Slicers to make the data exploration interactive.
+
+### How to Interact with Dashboards
+
+1. Open the dataset in **Microsoft Excel**.
+2. Navigate to the dashboard sheet (usually named something like "Dashboard" or "Summary").
+3. Use the **Slicers** or **PivotTable filters** to explore the data by year, race, charge type, etc.
+4. Click on various chart elements (e.g., bars or pie segments) to drill down into more specific data.
+5. You can update these dashboards by refreshing the data or by modifying the PivotTables as new information becomes available.
 
 ## Technologies Used
 
 - **Microsoft Excel** for data cleaning, exploration, and analysis.
-- **Python** for advanced analysis
-- **Data Visualization Libraries** 
-
-## File Structure
-
-- **`data/`**: Directory containing raw and processed datasets.
-  - `chicago_crime_data.xlsx`: The main dataset for crime and arrest information.
-- **`notebooks/`**: Directory for Jupyter Notebooks or analysis files.
-  - `crime_analysis.ipynb`: Jupyter Notebook containing analysis code and visualizations.
-- **`README.md`**: This file, providing an overview of the project.
+- **Excel Dashboards** for interactive visualizations.
 
 ## How to Use
 
 1. **Download the dataset** from [Kaggle](https://www.kaggle.com/datasets/mattop/arrests-in-the-city-of-chicago-2014-2023).
-2. Open the dataset in **Microsoft Excel** to begin your analysis, or if you prefer Python-based analysis, import the dataset using `pandas` in Jupyter Notebook.
-3. Explore the data and apply the analysis techniques mentioned in the project objectives to gain insights into crime patterns.
+2. Open the dataset in **Microsoft Excel**.
+3. Navigate to the dashboard sheet in Excel to start interacting with the data.
+4. Use the provided slicers and filters to explore crime trends by year, race, offense, etc.
+5. Optionally, use Jupyter Notebooks or Python scripts to perform advanced analysis if needed.
 
 ## Data Sources
 
