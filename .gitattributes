@@ -1,0 +1,4 @@
+*.xlsx linguist-detectable=true
+*.xlsm linguist-detectable=true
+*.pbix linguist-detectable=true
+*.twbx linguist-detectable=true
